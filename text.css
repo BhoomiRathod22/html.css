@@ -1,0 +1,39 @@
+h2{
+    color:blueviolet;
+}
+.text-alignment p{
+    border: solid 2px;
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
+}
+.text-decoration p{
+    width: 30%;
+    text-decoration: underline;
+}
+a{
+    /* text-decoration-color: brown; */
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.text-indentation p{
+    text-indent: 100px;
+    /* letter-spacing: 20px; */
+    /* word-spacing: 20px; */
+    line-height: 100px;
+}
+.text-transformation p{
+    text-transform: capitalize;
+}
+.lowercase p{
+    text-transform: lowercase;
+}
+.uppercase p{
+    text-transform: uppercase;
+}
+h1{
+    text-shadow: 5px 5px 5px red;
+}
