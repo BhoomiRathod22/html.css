@@ -1,0 +1,15 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+section{
+    background-color: cadetblue;
+}
+.conteiner{
+    /* background-color: crimson; */
+    width: 800px;
+    border: solid 2px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
