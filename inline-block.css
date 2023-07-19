@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color: cadetblue;
+    flex-wrap: wrap-reverse;
+}
+.conteiner{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* border: solid 2px; */
+
+}
+.box{
+    display: inline-block;
+    width: 30%;
+    border: solid 2px;
+    background-color: aqua;
+    margin: 10px;
+}
