@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: khaki;
+            height: 800px;
+            
+            display: grid;
+            row-gap: 10px;
+            column-gap: 10px;
+            grid-template-rows: 150px 1fr 1fr  150px ;
+            grid-template-columns: 1fr 1fr 1fr  ;
+            
+        }
+        .item{
+            
+            background-color:aqua;
+            
+        }
+        #header{
+            font-size: 50px;
+            color:black;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* grid-column: span 4; */
+        }
+        #section{
+            font-size: 50px;
+            color: black;
+            text-align: center;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #sec-3{
+            font-size: 50px;
+            color: black;
+            text-align: center;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        #foot{
+            font-size: 50px;
+            color:black;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="item" id="header">header</div>
+        <div class="item" id="section">section</div>
+        <div class="item" id="sec-3">sec-3</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item" id="foot">foot</div>
+        
+     </section>
+
+    
+</body>
+</html>
