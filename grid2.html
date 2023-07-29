@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        background: linear-gradient(100deg ,rgb(0, 255, 153), rgb(0, 100, 128));
+        height: 800px;
+    }
+    .conteiner{
+        width: 1200px;
+        margin: 0 auto;
+        border:  solid 1px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(10, 1fr);
+
+    }
+    .logo{
+        border: solid 1px;
+        background-color: rgb(0, 234, 255);
+        font-size: 30px;
+        grid-column: span 2;
+        padding: 10px 0;
+        order: 2;
+    }
+    .nav{
+        border: solid 1px;
+        background-color: rgb(0, 242, 255); 
+        font-size: 30px;
+        grid-column: span 8;
+        padding: 10px 0;
+        order: 1;
+    }
+    .head{
+        border: solid 1px;
+        background-color: darkorange; 
+        grid-column: span 10;
+        padding: 10px 0;
+        order: 3;
+    }
+
+</style>
+</head>
+
+<body>
+
+<section>
+    <div class="conteiner">
+        <div  class="logo">
+            logo
+        </div>
+        <div class="nav">
+            nav
+        </div>
+        <div class="head">
+            <h1>This is a my first header.</h1>
+        </div>
+    </div>
+
+</section>
+
+    
+</body>
+</html>
